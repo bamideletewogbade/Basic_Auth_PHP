@@ -5,13 +5,13 @@
 </head>
 <body>
 <form action="reset_process.php" method="post">
-	New Password: <input type="text" name="username" value="" />
+	New Password: <input type="text" name="password" value="" />
 	<br>
 	<br>
-	Confirm Password: <input type="text" name="password" value="" />
+	Confirm Password: <input type="text" name="cpassword" value="" />
 	<br>
 	<br>
-	<input type="submit" name="submit" value="Register">
+	<input type="submit" name="submit" value="Submit">
 </form>
 </body>
 </html>
