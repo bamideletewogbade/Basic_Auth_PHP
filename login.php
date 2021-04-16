@@ -13,7 +13,7 @@
     <br>
     <input type="submit" name="login" value="Login">
     
-     <a href="reset_password.php"><input type="submit" name="forgotPassowrd" value="Reset Password"></a>
+     <a href="reset_password.php"><input type="submit" name="forgotPassword" value="Reset Password"></a>
 
       <p>
         Not yet registered?
