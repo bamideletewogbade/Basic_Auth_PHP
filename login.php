@@ -14,6 +14,11 @@
     <input type="submit" name="login" value="Login">
     
      <a href="reset_password.php"><input type="submit" name="forgotPassowrd" value="Reset Password"></a>
+
+      <p>
+        Not yet registered?
+ <a href="register.php">Click here to register</a>
+ </p>
 </form>
 </body>
 </html>

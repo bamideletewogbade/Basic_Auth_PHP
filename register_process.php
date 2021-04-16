@@ -9,7 +9,13 @@
         'password' => $password
     ];
 
-    file_put_contents('Files/'. $array_data['username'] . ".json", json_encode($array_data));
+    $put_content = file_put_contents('Files/'. $array_data['username'] . ".json", json_encode($array_data));
+    if($put_content == TRUE){
+    	echo "Registration Successful";
+    }else{
+    	echo "Registrationwas not successful";
+    }
+
 }
 ?>
   
