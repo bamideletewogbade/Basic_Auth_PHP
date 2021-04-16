@@ -16,15 +16,15 @@ if(isset($_POST['login'])){
 
     $myfile = fopen("Files/". $username .".json", "r") or die("Unable to open file!");
     $get_contents = file_get_contents($myfile,json_decode($array_data));
-
-    echo $get_contents;
+    
+    //echo $get_contents;
 	fclose($myfile);
 
 }
 ?>
 
 <!--<?php
-if(isset($_POST['forgotPassword'])){
+//if(isset($_POST['forgotPassword'])){
 
 }
 ?>-->
