@@ -4,17 +4,24 @@
 	<title>Login Form Processing</title>
 </head>
 <body>
-<?php
-function checkDetailsInTxtFile(){
-    if(isset($_POST['username']) && isset($_POST['password'])) {
-    	$username = $_POST['username'];
-    	$password = $_POST['password'];
-    	$file_read = file('user_details.txt');
-    	
-		}
+<?php 
+    $myFile = "user_details.txt";
+    $contents = file_get_contents($myFile);
+    $contents = explode("\n", $contents);
+
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
+    if($username == $_POST['username'] && $password == $_POST['password']){
+        echo "Login Successful";
+
+
+   }
+    else{
+        echo "Please verify your username and password.";
     }
-    checkDetailsInTxtFile();
-?>
+
+    ?>
 </body>
 </html>
 

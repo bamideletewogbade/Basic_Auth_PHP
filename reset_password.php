@@ -11,7 +11,7 @@
 	Confirm Password: <input type="text" name="password" value="" />
 	<br>
 	<br>
-	<input type="submit" name="submit" value="Change Passowrd">
+	<input type="submit" name="submit" value="Change Password">
 </form>
 </body>
 </html>

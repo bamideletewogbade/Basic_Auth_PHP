@@ -7,10 +7,10 @@
 <body>
 
 <form action="register_process.php" method="post">
-	Username: <input type="text" name="username" value="" />
+	Username: <input type="text" name="username" value="" placeholder="Username" />
 	<br>
 	<br>
-	Password: <input type="text" name="password" value="" />
+	Password: <input type="text" name="password" value="" placeholder="Password" />
 	<br>
 	<br>
 	<input type="submit" name="submit" value="Register">
